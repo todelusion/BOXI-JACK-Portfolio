@@ -13,10 +13,9 @@ module.exports = {
         "5.5xl": "3.5rem",
       },
       colors: {
-        primary: "#1D4A90",
-        primary_Dark: "#003F97",
-        primary_light: "#0554C0",
-        second: "#191919",
+        primary: "#F993CD",
+        primary_light: "#FCEDF4",
+        second: "#28384B",
       },
       padding: {
         3.5: "0.875rem",

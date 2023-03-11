@@ -1,4 +1,11 @@
 import { moocsPath } from "../assets";
+import {
+  icon_code,
+  icon_email,
+  icon_folder,
+  icon_idcard,
+  icon_wordbag,
+} from "../assets/icons";
 
 enum JobType {
   Full = "Full-time staff",
@@ -9,22 +16,27 @@ export const navLinks = [
   {
     id: "ABOUT",
     title: "ABOUT",
+    icon: icon_idcard,
   },
   {
     id: "WORK",
     title: "WORK",
+    icon: icon_wordbag,
   },
   {
     id: "SKILLS",
     title: "SKILLS",
+    icon: icon_code,
   },
   {
     id: "PROJECT",
     title: "PROJECT",
+    icon: icon_folder,
   },
   {
     id: "CONTACT",
     title: "CONTACT",
+    icon: icon_email,
   },
 ];
 

@@ -10,6 +10,9 @@ function App(): JSX.Element {
       <div className="pt-20">
         <Hero />
       </div>
+      <div className="min-h-screen" />
+      <div className="min-h-screen" />
+      <div className="min-h-screen" />
     </BrowserRouter>
   );
 }

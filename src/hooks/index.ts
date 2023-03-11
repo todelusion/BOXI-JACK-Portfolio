@@ -1,3 +1,4 @@
 import useMobile from "./useMobile";
+import useScrollUp from "./useScroll";
 
-export { useMobile };
+export { useMobile, useScrollUp };

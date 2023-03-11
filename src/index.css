@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply box-border font-sans scrollbar-thin;
+    @apply box-border font-sans;
   }
 }
 

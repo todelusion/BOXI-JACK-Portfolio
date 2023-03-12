@@ -5,8 +5,14 @@ module.exports = {
       screens: {
         xs: "384px",
       },
+      height: {
+        "200":"50rem"
+      },
       maxWidth: {
         "8xl": "1440px",
+      },
+      maxHeight: {
+        "200": "50rem",
       },
       fontSize: {
         "4.5xl": "2.5rem",

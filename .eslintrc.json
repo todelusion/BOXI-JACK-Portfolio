@@ -24,6 +24,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-props-no-spreading": "off",
     "@typescript-eslint/no-misused-promises": "off",
+    "react/no-unknown-property": "off",
     "react/prop-types": "off", // Since we do not use prop-types
     "react/require-default-props": "off" // Since we do not use prop-types
   }

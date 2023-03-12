@@ -27,9 +27,7 @@ function NavList(): JSX.Element {
             <a
               onClick={() => setActive(nav.id)}
               href={`#${nav.id}`}
-              className={`cursor-pointer  ${
-                active === nav.id ? "text-black" : "text-slate-500"
-              }`}
+              className="cursor-pointer text-black"
             >
               {nav.title}
             </a>

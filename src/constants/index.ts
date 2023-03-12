@@ -40,6 +40,13 @@ export const navLinks = [
   },
 ];
 
+export const hero = {
+  name: "BOXI JACK",
+  job: "Frontend Developer",
+  description:
+    "The one who is able to weave together technical know-how with design aesthetics.",
+};
+
 export const work = [
   {
     title: "MOOCs designer",

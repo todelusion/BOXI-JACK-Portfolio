@@ -6,13 +6,16 @@ module.exports = {
         xs: "384px",
       },
       height: {
-        "200":"50rem"
+        "200": "50rem",
       },
       maxWidth: {
         "8xl": "1440px",
       },
       maxHeight: {
         "200": "50rem",
+      },
+      minHeight: {
+        "20": "5rem",
       },
       fontSize: {
         "4.5xl": "2.5rem",

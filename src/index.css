@@ -33,6 +33,10 @@ body {
   overflow-x: hidden !important;
 }
 
+.box-shadow {
+  box-shadow: 2px 2px #28384b;
+}
+
 @media (max-width: 768px) {
   html {
     max-width: 100vw !important;

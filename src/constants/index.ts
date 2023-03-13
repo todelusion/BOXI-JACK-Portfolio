@@ -14,27 +14,27 @@ enum JobType {
 export const navLinks = [
   {
     id: "ABOUT",
-    title: "ABOUT",
+    title: "About",
     icon: icon_idcard,
   },
   {
     id: "WORK",
-    title: "WORK",
+    title: "Work",
     icon: icon_wordbag,
   },
   {
     id: "SKILLS",
-    title: "SKILLS",
+    title: "Skills",
     icon: icon_code,
   },
   {
     id: "PROJECT",
-    title: "PROJECT",
+    title: "Project",
     icon: icon_folder,
   },
   {
     id: "CONTACT",
-    title: "CONTACT",
+    title: "Contact",
     icon: icon_email,
   },
 ];

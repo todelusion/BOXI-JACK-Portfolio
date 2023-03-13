@@ -22,7 +22,7 @@ function NavList(): JSX.Element {
             <a
               onClick={() => setActive(nav.id)}
               href={`#${nav.id}`}
-              className="cursor-pointer text-black"
+              className="cursor-pointer uppercase text-black"
             >
               {nav.title}
             </a>
@@ -37,7 +37,7 @@ function NavButtom(): JSX.Element {
 
   return (
     <div className="fixed bottom-0 z-20 w-full bg-white/70 backdrop-blur-sm">
-      <ul className="mx-auto flex h-full items-center justify-around px-2 pt-3 pb-10 ">
+      <ul className="mx-auto flex items-center justify-around py-2">
         {navLinks.map((nav) => (
           <li key={nav.id} className="mx-2 h-10 w-16">
             <a
@@ -50,7 +50,7 @@ function NavButtom(): JSX.Element {
               <img
                 src={nav.icon}
                 alt={nav.title}
-                className="mx-auto mb-1 h-8 w-8"
+                className="mx-auto mb-1 h-5 w-5"
               />
               <span className="mx-auto text-xs">{nav.title}</span>
             </a>
